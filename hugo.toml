@@ -1,0 +1,4 @@
+baseURL = 'https://zacharyetters.com/'
+languageCode = 'en-us'
+title = 'Zachary Etters'
+theme = ""
