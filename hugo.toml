@@ -11,7 +11,7 @@ pygmentsUseClasses = true
 
 [minify]
 disableXML = true
-minifyOutput = true
+#minifyOutput = true
 
 [params]
 env = "production"
@@ -27,7 +27,7 @@ ShowReadingTime = false
 ShowShareButtons = false
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-ShowCodeCopyButtons = false
+ShowCodeCopyButtons = true
 ShowWordCount = false
 ShowRssButtonInSectionTermList = false
 UseHugoToc = true
