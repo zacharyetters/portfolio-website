@@ -1,7 +1,11 @@
 ---
 author: ""
-title: "About Me"
+title: "About"
 date: ""
-description: "Lorem Ipsum Dolor Si Amet"
+description: ""
 hideMeta: true
+searchHidden: true
+ShowBreadCrumbs: false
 ---
+
+I am currently a senior at Penn College studying Networking Administration. I have also attended the Central PA Institute for Information Technology for three years.
