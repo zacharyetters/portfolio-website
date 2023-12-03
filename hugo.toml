@@ -61,8 +61,8 @@ tocopen = false
   imageTitle = ""
 
     [[params.profileMode.buttons]]
-    name = "Search"
-    url = "search"
+    name = "About"
+    url = "about"
     
     [[params.profileMode.buttons]]
     name = "Posts"
