@@ -1,4 +1,4 @@
-baseURL = "https://zacharyetters.com"
+baseURL = "https://zacharyetters.com/"
 title = "Zachary's Portfolio"
 paginate = 5
 theme = "PaperMod"
@@ -78,7 +78,7 @@ tocopen = false
 
   [[params.socialIcons]]
   name = "linkedin"
-  url = "https://www.linkedin.com/in/zacharyetters"
+  url = "https://www.linkedin.com/in/zacharyetters/"
 
   #[[params.socialIcons]]
   #name = "x"
