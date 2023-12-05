@@ -43,8 +43,8 @@ tocopen = false
   favicon = "images/avatar.jpg"
   favicon16x16 = "images/avatar-16x16.jpg"
   favicon32x32 = "<images/avatar-32x32>"
-  apple_touch_icon = "<link / abs url>"
-  safari_pinned_tab = "<link / abs url>"
+  apple_touch_icon = "images/avatar.jpg"
+  safari_pinned_tab = "images/avatar.jpg"
 
   [params.label]
   text = "Home"
