@@ -7,11 +7,27 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 #googleAnalytics = "UA-123-45"
-pygmentsUseClasses = true
+pygmentsUseClasses = false #true
 
 [minify]
 disableXML = true
-#minifyOutput = true
+minifyOutput = true
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    #hl_Lines = ''
+    #hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = true
+    noHl = true
+    style = 'catppuccin-frappe'
+    tabWidth = 5
 
 [params]
 env = "production"
@@ -40,9 +56,10 @@ showtoc = false
 tocopen = false
 
   [params.assets]
+  disableHLJS = true #false
   favicon = "images/avatar.jpg"
   favicon16x16 = "images/avatar-16x16.jpg"
-  favicon32x32 = "<images/avatar-32x32>"
+  favicon32x32 = "images/avatar-32x32"
   apple_touch_icon = "images/avatar.jpg"
   safari_pinned_tab = "images/avatar.jpg"
 
@@ -124,9 +141,6 @@ identifier = "search"
 name = "Search"
 url = "/search/"
 weight = 10
-
-[markup.highlight]
-noClasses = false
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]

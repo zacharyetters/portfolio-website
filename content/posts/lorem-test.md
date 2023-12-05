@@ -45,30 +45,32 @@ fulgore fretum, caede quicquam, [templa et](http://enim.com/carinae-putares.php)
 dum firmo ad se, genu. Feroces maternis pueri, tum nomen iamque amissos trahunt
 variatis potiar, **per eadem**.
 
-    var webmailBoolean = saas_text_console.panelPcmcia(flash_lcd_asp,
-            menuArtBeta.sku(publishingVci), cms_memory_output +
-            batch_streaming_version + iphoneIpBatch);
-    sslBootDevice.opticalAspDisk(1);
-    if (wan_irc) {
-        slashdot.dual -= postscript_mpeg_refresh;
-        virus = mnemonic(wordartSmmSms(access, isp));
-        exabyteUserBacklink.maskProcessWarm(denial, southbridge_pmu_view, -4);
-    } else {
-        ipDownBar(4 - pmu_interactive, illegal_storage_opengl,
-                ddrComponentDirect + ramDriveAlignment);
-        trackback = footerMountain;
-        push(personal);
-    }
-    if (program_parse) {
-        aluFloodCompatible -= richSignature;
-        thermistor.winsock_cloud_multithreading = schemaUtf;
-    } else {
-        cybersquatter_prompt_user = 4;
-        digital *= sql_hertz_forum;
-        internet.memory.powerRw(install_drop_edutainment(data), icq.peripheral(
-                romSwipe, keywordsTwitter));
-    }
-    var jreFifoAdware = basicLanguage;
+```java
+var webmailBoolean = saas_text_console.panelPcmcia(flash_lcd_asp,
+        menuArtBeta.sku(publishingVci), cms_memory_output +
+        batch_streaming_version + iphoneIpBatch);
+sslBootDevice.opticalAspDisk(1);
+if (wan_irc) {
+    slashdot.dual -= postscript_mpeg_refresh;
+    virus = mnemonic(wordartSmmSms(access, isp));
+    exabyteUserBacklink.maskProcessWarm(denial, southbridge_pmu_view, -4);
+} else {
+    ipDownBar(4 - pmu_interactive, illegal_storage_opengl,
+            ddrComponentDirect + ramDriveAlignment);
+    trackback = footerMountain;
+    push(personal);
+}
+if (program_parse) {
+    aluFloodCompatible -= richSignature;
+    thermistor.winsock_cloud_multithreading = schemaUtf;
+} else {
+    cybersquatter_prompt_user = 4;
+    digital *= sql_hertz_forum;
+    internet.memory.powerRw(install_drop_edutainment(data), icq.peripheral(
+            romSwipe, keywordsTwitter));
+}
+var jreFifoAdware = basicLanguage;
+```
 
 ## Acrisium probant tot
 
