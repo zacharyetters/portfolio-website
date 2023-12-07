@@ -54,10 +54,10 @@ tocopen = false
   [params.profileMode]
   enabled = true
   title = "Zachary Etters"
-  subtitle = "CompSci Student"
+  subtitle = "Network Administration Student"
   imageUrl = "images/avatar.jpg"
-  imageWidth = 256
-  imageHeight = 256
+  imageWidth = 300
+  imageHeight = 300
   imageTitle = ""
 
     [[params.profileMode.buttons]]
