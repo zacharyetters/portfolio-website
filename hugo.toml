@@ -2,6 +2,7 @@ baseURL = "https://zacharyetters.com/"
 title = "Zachary's Portfolio"
 paginate = 5
 theme = "PaperMod"
+
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
@@ -22,6 +23,7 @@ author = "Zachary Etters"
 images = [ "images/avatar.jpg" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "light"
+
 disableThemeToggle = false
 ShowReadingTime = false
 ShowShareButtons = false
@@ -130,3 +132,8 @@ noClasses = false
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
+
+[sitemap]
+changefreq =  ""
+filename = "sitemap.xml"
+priority = 0
