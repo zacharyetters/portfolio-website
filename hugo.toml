@@ -55,7 +55,7 @@ tocopen = false
   enabled = true
   title = "Zachary Etters"
   subtitle = "Network Administration Student"
-  imageUrl = "images/avatar.jpg"
+  imageUrl = "https://github.com/zacharyetters/portfolio-website/blob/main/content/images/avatar.jpg?raw=true"
   imageWidth = 300
   imageHeight = 300
   imageTitle = ""
