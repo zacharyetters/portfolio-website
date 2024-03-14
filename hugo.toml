@@ -20,7 +20,7 @@ title = "Zachary's Portfolio"
 description = "Zachary's Portfolio"
 keywords = [ "Blog", "Portfolio", "Personal" ]
 author = "Zachary Etters"
-images = [ "images/avatar.jpg" ]
+images = [ "images/avatar.webp" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "light"
 
@@ -42,11 +42,11 @@ showtoc = false
 tocopen = false
 
   [params.assets]
-  favicon = "images/avatar.jpg"
+  favicon = "images/avatar.webp"
   favicon16x16 = "images/avatar-16x16.jpg"
-  favicon32x32 = "images/avatar-32x32"
-  apple_touch_icon = "images/avatar.jpg"
-  safari_pinned_tab = "images/avatar.jpg"
+  favicon32x32 = "images/avatar-32x32.jpg"
+  apple_touch_icon = "images/avatar.webp"
+  safari_pinned_tab = "images/avatar.webp"
 
   [params.label]
   text = "Home"
@@ -57,7 +57,7 @@ tocopen = false
   enabled = true
   title = "Zachary Etters"
   subtitle = "Network Administration Student"
-  imageUrl = "images/avatar.jpg"
+  imageUrl = "images/avatar.webp"
   imageWidth = 300
   imageHeight = 300
   imageTitle = ""
