@@ -49,8 +49,8 @@ tocopen = false
   safari_pinned_tab = "images/avatar.webp"
 
   [params.label]
-  text = "Home"
-  icon = "/apple-touch-icon.png"
+  text = "Zachary's Portfolio"
+  icon = ""
   iconHeight = 35
 
   [params.profileMode]
@@ -64,11 +64,11 @@ tocopen = false
 
     [[params.profileMode.buttons]]
     name = "About"
-    url = "about"
+    url = "about/"
     
     [[params.profileMode.buttons]]
     name = "Posts"
-    url = "posts"
+    url = "posts/"
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
