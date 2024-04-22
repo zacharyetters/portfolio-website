@@ -8,16 +8,16 @@ title = "Zachary's Portfolio"
   isoCode = "en"
   rtl = false
   dateFormat = "January, 2 2006"
-  # logo = "img/avatar.webp"
-  # secondaryLogo = "img/avatar.webp"
-  description = "Zachary's Portfolio"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
  [author]
    name = "Zachary Etters"
    image = "img/avatar.webp"
-   headline = "Network Administration Student"
-   bio = "Network Administration Student"
+   headline = "I'm only human"
+   bio = "A little bit about you"
    links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
