@@ -45,7 +45,7 @@ fulgore fretum, caede quicquam, [templa et](http://enim.com/carinae-putares.php)
 dum firmo ad se, genu. Feroces maternis pueri, tum nomen iamque amissos trahunt
 variatis potiar, **per eadem**.
 
-```powershell
+```rust
     var webmailBoolean = saas_text_console.panelPcmcia(flash_lcd_asp,
             menuArtBeta.sku(publishingVci), cms_memory_output +
             batch_streaming_version + iphoneIpBatch);
@@ -89,3 +89,22 @@ Corythus tibi: deos.
 exclamat surrexit Olympus, aequoris, per suis. Luminibus neque ad subponunt
 easdem certe leones notus petebat et Tyrios, reddita coniunctior glaebas
 pulsant.
+
+<div style="background-color:white; padding: 20px">
+{{< mermaid >}}
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+B --> G[/Another/]
+C ==>|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[Car]
+subgraph Section
+C
+D
+E
+F
+G
+end
+{{< /mermaid >}}
+</div>
