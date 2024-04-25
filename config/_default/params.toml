@@ -18,8 +18,8 @@ mainSections = ["projects", ""]
 disableImageOptimization = true
 disableTextInHeader = false
 
-defaultBackgroundImage = "img/feature.webp" # used as default for background images 
-defaultFeaturedImage = "img/feature.webp" # used as default for featured images in all articles
+# defaultBackgroundImage = "img/sample.webp" # used as default for background images 
+# defaultFeaturedImage = "img/sample.webp" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -36,8 +36,8 @@ smartTOCHideUnfocusedChildren = true
   showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/background.png" # used in: hero, and card
+  layout = "profile" # valid options: page, profile, hero, card, background, custom
+  # homepageImage = "img/background.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
@@ -65,7 +65,7 @@ smartTOCHideUnfocusedChildren = true
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = false
-  showPagination = true
+  showPagination = false
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
