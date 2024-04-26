@@ -2,10 +2,9 @@
 title: "Projects"
 ---
 
-{{< lead >}}
-Simple, yet powerful. Learn how to use Blowfish and its features.
-{{< /lead >}}
+> The goal you set must be challenging. At the same time, it should be realistic and attainable, not impossible to reach. It should be challenging enough to make you stretch, but not so far that you break.<br>
+> — <cite>Rick Hansen</cite>
 
-This section contains everything you need to know about Blowfish. If you're new, check out the guide to begin or visit thesection to see what Blowfish can do.
+This section contains some of my projects I have completed.
 
 ---

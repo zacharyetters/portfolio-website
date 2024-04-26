@@ -1,9 +1,13 @@
 ---
 title: 'Lorem Ipsum'
+summary: 'This test post showcases the layout of the page within this theme.'
+description: 'This test post showcases the layout of the page within this theme.'
+categories: []
+tags: []
 date: 2023-12-02
-description: ""
 draft: true
 ---
+
 # In et latebris Coeranon
 
 ## Grandior nullosque amoris
