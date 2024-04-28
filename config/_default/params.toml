@@ -18,7 +18,7 @@ mainSections = ["projects", ""]
 disableImageOptimization = true
 disableTextInHeader = false
 
-# defaultBackgroundImage = "img/sample.webp" # used as default for background images 
+defaultBackgroundImage = "img/background.webp" # used as default for background images 
 # defaultFeaturedImage = "img/sample.webp" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = true
@@ -37,7 +37,7 @@ smartTOCHideUnfocusedChildren = true
 
 [homepage]
   layout = "custom" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/feature.webp" # used in: hero, and card
+  homepageImage = "img/background.webp" # used in: hero, and card
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
