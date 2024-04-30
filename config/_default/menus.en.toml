@@ -21,21 +21,26 @@
   pageRef = "projects"
   weight = 20
 
-[[main]]
-  name = "Other"
-  weight = 30
+  # [[main]]
+  # name = "Resume"
+  # pageRef = "resume"
+  # weight = 30
 
-[[main]]
-  name = "example sub-menu 1"
-  parent = "Other"
-  pageRef = "posts"
-  weight = 20
+# [[main]]
+#   name = "Other"
+#   weight = 30
 
-[[main]]
-  name = "example sub-menu 2"
-  parent = "Other"
-  pageRef = "posts"
-  weight = 20
+# [[main]]
+#   name = "example sub-menu 1"
+#   parent = "Other"
+#   pageRef = "posts"
+#   weight = 20
+
+# [[main]]
+#   name = "example sub-menu 2"
+#   parent = "Other"
+#   pageRef = "posts"
+#   weight = 20
 
 # [[subnavigation]]
 #  name = "An interesting topic"
