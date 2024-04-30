@@ -31,4 +31,4 @@ layout: simple
 This is my resume.
 
 
-{{< embed-pdf url="resume/Donna.pdf" hidePaginator="true" hideLoader="false" >}}
+<!-- {{< embed-pdf url="resume/.pdf" hidePaginator="true" hideLoader="false" >}} -->
