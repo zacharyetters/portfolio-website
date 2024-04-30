@@ -29,3 +29,6 @@ layout: simple
 
 
 This is my resume.
+
+
+{{< embed-pdf url="resume/Donna.pdf" hidePaginator="true" hideLoader="false" >}}
