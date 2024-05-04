@@ -15,7 +15,7 @@ summaryLength = 0
 buildDrafts = true # CHNAGE IN FUTURE!
 buildFuture = true # CHNAGE IN FUTURE!
 
-googleAnalytics = "G-RM92BN5DFQ"
+googleAnalytics = "G-N3YXE0GFFY"
 
 [imaging]
   anchor = 'Center'
