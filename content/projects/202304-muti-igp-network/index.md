@@ -1,5 +1,5 @@
 ---
-title: 'Building a Multi IGP Network'
+title: 'Building a Multi-IGP Network'
 summary: 'I will build out a Multi IGP network using Cisco hardware on the GNS3 platform.'
 description: 'I will build out a Multi IGP network using Cisco hardware on the GNS3 platform.'
 categories: []

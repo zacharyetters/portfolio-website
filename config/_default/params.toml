@@ -49,7 +49,7 @@ smartTOCHideUnfocusedChildren = true
 [article]
   showDate = true
   showViews = true
-  showLikes = false
+  showLikes = true
   showDateOnlyInArticle = false
   showDateUpdated = true
   showAuthor = true
@@ -69,7 +69,7 @@ smartTOCHideUnfocusedChildren = true
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  showRelatedContent = true
+  showRelatedContent = false
   relatedContentLimit = 3
   showTaxonomies = false
   showAuthorsBadges = false
