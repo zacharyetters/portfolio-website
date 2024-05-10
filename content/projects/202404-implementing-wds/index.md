@@ -1,5 +1,5 @@
 ---
-title: 'Implementing WDS'
+title: 'Implementing WDS with MDT'
 summary: 'In this post I will describe and showcase my WDS deployment.'
 description: 'In this post I will describe and showcase my WDS deployment.'
 categories: []
