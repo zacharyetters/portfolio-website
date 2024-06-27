@@ -57,9 +57,11 @@
                     {{ end }}
                     <script>
                         new TypeIt("#typeit", { 
-                            lifeLike: false, 
-                            // speed: 100
-                            
+                            lifeLike: false,
+                            waitUntilVisible: true,
+                            afterComplete: function (instance) {
+                                instance.destroy();
+                            }
                         })
                         .type("networ ", { delay: 200 })
                         .move(-6, { instant: false, delay:300 })
