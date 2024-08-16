@@ -12,8 +12,8 @@ enableRobotsTXT = true
 paginate = 12
 summaryLength = 0
 
-buildDrafts = true # CHNAGE IN FUTURE!
-buildFuture = true # CHNAGE IN FUTURE!
+buildDrafts = false
+buildFuture = false
 
 googleAnalytics = "G-N3YXE0GFFY"
 
