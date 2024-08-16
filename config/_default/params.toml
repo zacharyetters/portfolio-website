@@ -38,7 +38,7 @@ smartTOCHideUnfocusedChildren = true
 [homepage]
   layout = "custom" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/background.webp" # used in: hero, and card
-  showRecent = true
+  showRecent = false
   showRecentItems = 3
   showMoreLink = true
   showMoreLinkDest = "/projects"
