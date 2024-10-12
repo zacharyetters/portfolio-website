@@ -11,7 +11,7 @@ title = "Zachary's Portfolio"
   # logo = "img/avatar.webp"
   # secondaryLogo = "img/avatar.webp"
   description = "Zachary's Portfolio"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "© 2024 Zachary Etters"
 
  [author]
    name = "Zachary Etters"
