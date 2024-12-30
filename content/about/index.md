@@ -24,6 +24,7 @@ showLikes: false
 showAuthor: true
 layoutBackgroundHeaderSpace: false
 showRelatedContent: false
+showAuthor: false
 ---
 
 I am currently a senior at Penn College studying Networking Administration. I have also attended the Central PA Institute for Information Technology for three years.
