@@ -1,3 +1,4 @@
+disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
@@ -8,17 +9,19 @@ title = "Zachary's Portfolio"
   isoCode = "en"
   rtl = false
   dateFormat = "January 2, 2006"
-  # logo = "img/avatar.webp"
-  # secondaryLogo = "img/avatar.webp"
-  description = "Zachary's Portfolio"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
   copyright = "© 2024 Zachary Etters"
 
- [author]
-   name = "Zachary Etters"
-   image = "img/avatar.webp"
-   headline = "Network Administration Student"
-   bio = "Network Administration Student"
-   links = [
+[params.author]
+  name = "Zachary Etters"
+  # email = "youremail@example.com"
+  image = "img/avatar.webp"
+  imageQuality = 96
+  headline = "Network Administration Student"
+  bio = "Network Administration Student"
+  links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -32,7 +35,7 @@ title = "Zachary's Portfolio"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-     { github = "https://github.com/zacharyetters/" },
+    { github = "https://github.com/zacharyetters/" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
@@ -41,7 +44,7 @@ title = "Zachary's Portfolio"
 #     { keybase = "https://keybase.io/username" },
 #     { kickstarter = "https://www.kickstarter.com/profile/username" },
 #     { lastfm = "https://lastfm.com/user/username" },
-     { linkedin = "https://www.linkedin.com/in/zacharyetters/" },
+    { linkedin = "https://www.linkedin.com/in/zacharyetters/" },
 #     { mastodon = "https://mastodon.instance/@username" },
 #     { medium = "https://medium.com/username" },
 #     { microsoft = "https://www.microsoft.com/" },
@@ -53,6 +56,7 @@ title = "Zachary's Portfolio"
 #     { slack = "https://workspace.url/team/userid" },
 #     { snapchat = "https://snapchat.com/add/username" },
 #     { soundcloud = "https://soundcloud.com/username" },
+#     { spotify = "https://open.spotify.com/user/userid" },
 #     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
 #     { steam = "https://steamcommunity.com/profiles/userid" },
 #     { telegram = "https://t.me/username" },
@@ -65,4 +69,5 @@ title = "Zachary's Portfolio"
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
-   ]
+#     { codeberg = "https://codeberg.org/username"},
+  ]
