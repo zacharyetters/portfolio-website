@@ -54,7 +54,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [article]
   showDate = true
-  showViews = true
+  showViews = false
   showLikes = false
   showDateOnlyInArticle = false
   showDateUpdated = false
@@ -125,13 +125,13 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   cardViewScreenWidth = false
 
 [firebase]
-  apiKey = "AIzaSyCBtH2if2PXhbr-U24CFV3t7F5FO1sRzkg"
-  authDomain = "portfolio-website-ba1fc.firebaseapp.com"
-  projectId = "portfolio-website-ba1fc"
-  storageBucket = "portfolio-website-ba1fc.appspot.com"
-  messagingSenderId = "54030475227"
-  appId = "1:54030475227:web:c5f3fd9763b366b23d11fe"
-  measurementId = "G-FE0XC9QJDW"
+  # apiKey = "AIzaSyCBtH2if2PXhbr-U24CFV3t7F5FO1sRzkg"
+  # authDomain = "portfolio-website-ba1fc.firebaseapp.com"
+  # projectId = "portfolio-website-ba1fc"
+  # storageBucket = "portfolio-website-ba1fc.appspot.com"
+  # messagingSenderId = "54030475227"
+  # appId = "1:54030475227:web:c5f3fd9763b366b23d11fe"
+  # measurementId = "G-FE0XC9QJDW"
 
 [fathomAnalytics]
   # site = "ABC12345"
