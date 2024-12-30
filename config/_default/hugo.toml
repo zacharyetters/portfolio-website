@@ -19,11 +19,11 @@ enableEmoji = true
 
 # googleAnalytics = "G-N3YXE0GFFY"
 
-[imaging]
-  anchor = 'Center'
-
 [pagination]
   pagerSize = 100
+
+[imaging]
+  anchor = 'Center'
 
 [taxonomies]
   tag = "tags"
