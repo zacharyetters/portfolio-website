@@ -13,7 +13,7 @@ showDate : false
 # showHeadingAnchors : false
 # showPagination : false
 showReadingTime : false
-# showTableOfContents : true
+# showTableOfContents : false
 # showTaxonomies : false 
 # showWordCount : false
 # showSummary : true
@@ -24,14 +24,14 @@ showReadingTime : false
 # layoutBackgroundHeaderSpace: false
 # showRelatedContent: false
 showAuthor: false
+# showZenMode: true
 ---
-
-I created this website to showcase the projects I have done during my academic career.
 
 {{< alert >}}
 **This website is a work in progress!** 
 {{< /alert >}}
 
+This website serves as a platform to showcase my skills and the projects I’ve completed throughout my journey in network administration, cybersecurity, and cloud computing. Here, you'll find an overview of the hands-on experience I've gained in designing secure, scalable network infrastructures and utilizing various tools and technologies to tackle real-world challenges effectively.
 
 ## Education
 {{< timeline >}}
