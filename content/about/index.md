@@ -36,17 +36,18 @@ I created this website to showcase the projects I have done during my academic c
 ## Education
 {{< timeline >}}
 
-{{< timelineItem icon="graduation-cap" header="Central Pennsylvania Institute of Science and Technology" subheader="Information Technology" badge="2016-2020" >}}
+{{< timelineItem icon="graduation-cap" header="Pennsylvania College of Technology" subheader="B.S. in Network Administration & Engineering Technology " badge="2020-2025" >}}
 
 <ul>
-  <li>Acquired foundational knowledge in computer systems and architecture.</li>
-  <li>Developed a strong understanding of key protocols and methodologies for computer communication.</li>
-  <li>Engaged in hands-on training to apply theoretical concepts in real-world scenarios.</li>
+  <li>Gained in-depth knowledge and hands-on experience in network design, security, and management, including working with routing, switching, firewalls, and VPNs.</li>
+  <li>Developed expertise in Windows Server Administration, including Group Policy management, Active Directory, and Microsoft 365 platform, utilizing Intune for device management and security.</li>
+  <li>Collaborated in team projects, enhancing teamwork and problem-solving skills in technical environments.</li>
+  
 </ul>
 
 {{< /timelineItem >}}
 
-{{< timelineItem icon="graduation-cap" header="Pennsylvania College of Technology" subheader="A.A.S in Information Technology: Network & User Support" badge="2023-2024" >}}
+{{< timelineItem icon="graduation-cap" header="Pennsylvania College of Technology" subheader="A.A.S. in Information Technology: Network & User Support" badge="2023-2024" >}}
 
 <ul>
   <li>Focused on hands-on learning in networking concepts, equipping me with practical skills and knowledge.</li>
@@ -56,14 +57,12 @@ I created this website to showcase the projects I have done during my academic c
 
 {{< /timelineItem >}}
 
-{{< timelineItem icon="graduation-cap" header="Pennsylvania College of Technology" subheader="B.S in Network Administration & Engineering Technology " badge="2020-2025" >}}
+{{< timelineItem icon="graduation-cap" header="Central Pennsylvania Institute of Science and Technology" subheader="Diploma in Information Technology" badge="2016-2020" >}}
 
 <ul>
-  <li>Acquired a comprehensive understanding of networking protocols and software, achieving proficiency in a diverse range of networking technologies.</li>
-  <li>Developed strong project management skills, allowing for the effective navigation of complex tasks and the ability to consistently meet deadlines with confidence.</li>
-  <li>Collaborated in team projects, enhancing teamwork and problem-solving skills in technical environments.</li>
-  <li>Demonstrated capability in managing multiple projects simultaneously, ensuring high-quality outcomes in fast-paced environments.</li>
-  
+  <li>Acquired foundational knowledge in computer systems and architecture.</li>
+  <li>Developed a strong understanding of key protocols and methodologies for computer communication.</li>
+  <li>Engaged in hands-on training to apply theoretical concepts in real-world scenarios.</li>
 </ul>
 
 {{< /timelineItem >}}
