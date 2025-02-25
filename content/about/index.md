@@ -4,7 +4,7 @@ title: 'About'
 # description: 'All about me'
 # categories: []
 # tags: []
-# date: 2024-12-31
+date: 2025-02-24
 draft: false
 
 showDate : false
