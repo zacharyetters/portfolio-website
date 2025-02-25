@@ -31,6 +31,7 @@ showAuthor: false
 **This website is a work in progress!** 
 {{< /alert >}}
 
+## Summary
 This website serves as a platform to showcase my skills and the projects I’ve completed throughout my journey in network administration, cybersecurity, and cloud computing. Here, you'll find an overview of the hands-on experience I've gained in designing secure, scalable network infrastructures and utilizing various tools and technologies to tackle real-world challenges effectively.
 
 ## Education
