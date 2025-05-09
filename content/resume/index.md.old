@@ -28,7 +28,7 @@ layout: simple
 ---
 
 
-This is my resume.
+<!-- This is my resume.
 
 {{< pdfviewer src="example.pdf#view=Fit&zoom=100" width="100%" height="800px" >}}
 
@@ -38,4 +38,4 @@ view=Fit	Fits the PDF to the viewer width.
 toolbar=0	Hides the toolbar in some browsers (Chrome doesn’t support this).
 scrollbar=0	Hides the scrollbars (may not work in all browsers).
 statusbar=0	Hides the status bar (limited browser support).
-navpanes=0	Hides the navigation panel (only works in Adobe Reader plugin).
+navpanes=0	Hides the navigation panel (only works in Adobe Reader plugin). -->
