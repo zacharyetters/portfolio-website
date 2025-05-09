@@ -32,24 +32,36 @@ showAuthor: false
 {{< /alert >}}
 
 ## Summary
-This website serves as a platform to showcase my skills and the projects I’ve completed throughout my journey in network administration, cybersecurity, and cloud computing. Here, you'll find an overview of the hands-on experience I've gained in designing secure, scalable network infrastructures and utilizing various tools and technologies to tackle real-world challenges effectively.
+This website serves as a platform to showcase my skills and the projects I've completed throughout my journey in network administration, cybersecurity, and cloud computing. 
+
+Here, you'll find an overview of the hands-on experience I've gained in designing secure, scalable network infrastructures and utilizing various tools and technologies to tackle real-world challenges effectively.
 
 ## Education
 {{< timeline >}}
 
-{{< timelineItem icon="graduation-cap" header="Pennsylvania College of Technology" subheader="B.S. in Network Administration & Engineering Technology " badge="2020-2025" >}}
 
+{{< timelineItem icon="graduation-cap" header="The Pennsylvania State University" >}}
+
+<h4 style="margin-top: 0rem;">M.S. in Cybersecurity Analytics and Operations</h4> (Expected May 2027)
 <ul>
-  <li>Gained in-depth knowledge and hands-on experience in network design, security, and management, including working with routing, switching, firewalls, and VPNs.</li>
-  <li>Developed expertise in Windows Server Administration, including Group Policy management, Active Directory, and Microsoft 365 platform, utilizing Intune for device management and security.</li>
-  <li>Collaborated in team projects, enhancing teamwork and problem-solving skills in technical environments.</li>
-  
+  <li>Pursuing advanced study in cybersecurity analytics, incident response, and strategic crisis management.</li>
+  <li>Gaining the ability to assess and mitigate risks associated with cyber threats to networks, data, and digital infrastructure.</li>
+  <li>Building a strong foundation in mathematics and programming to support robust cybersecurity solutions.</li>
 </ul>
 
 {{< /timelineItem >}}
 
-{{< timelineItem icon="graduation-cap" header="Pennsylvania College of Technology" subheader="A.A.S. in Information Technology: Network & User Support" badge="2023-2024" >}}
 
+{{< timelineItem icon="graduation-cap" header="Pennsylvania College of Technology" >}}
+
+<h4 style="margin-top: 0rem;">B.S. in Network Administration & Engineering Technology</h4> (May 2025)  
+<ul>
+  <li>Gained in-depth knowledge and hands-on experience in network design, security, and management, including working with routing, switching, firewalls, and VPNs.</li>
+  <li>Developed expertise in Windows Server Administration, including Group Policy management, Active Directory, and Microsoft 365 platform, utilizing Intune for device management and security.</li>
+  <li>Collaborated in team projects, enhancing teamwork and problem-solving skills in technical environments.</li>
+</ul>
+
+<h4>A.A.S. in Information Technology: Network & User Support</h4> (May 2024)  
 <ul>
   <li>Focused on hands-on learning in networking concepts, equipping me with practical skills and knowledge.</li>
   <li>Coursework included user support, enhancing my ability to assist clients effectively.</li>
@@ -58,8 +70,10 @@ This website serves as a platform to showcase my skills and the projects I’ve 
 
 {{< /timelineItem >}}
 
-{{< timelineItem icon="graduation-cap" header="Central Pennsylvania Institute of Science and Technology" subheader="Diploma in Information Technology" badge="2016-2020" >}}
 
+{{< timelineItem icon="graduation-cap" header="Central Pennsylvania Institute of Science and Technology" >}}
+
+<h4 style="margin-top: 0rem;">Diploma in Information Technology</h4> (May 2020)
 <ul>
   <li>Acquired foundational knowledge in computer systems and architecture.</li>
   <li>Developed a strong understanding of key protocols and methodologies for computer communication.</li>
@@ -67,6 +81,7 @@ This website serves as a platform to showcase my skills and the projects I’ve 
 </ul>
 
 {{< /timelineItem >}}
+
 
 {{< /timeline >}}
 
