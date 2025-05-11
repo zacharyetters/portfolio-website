@@ -1,0 +1,27 @@
+{{- /* 
+  PDF Viewer URL Parameters Reference:
+
+  page=X       → Opens the PDF at a specific page (e.g., page=3)
+  zoom=X       → Sets the zoom level (e.g., zoom=50 for 50% or zoom=100 for full width)
+  view=Fit     → Fits the PDF to the viewer width
+  toolbar=0    → Hides the toolbar (Chrome doesn't support this)
+  scrollbar=0  → Hides scrollbars (may not work in all browsers)
+  statusbar=0  → Hides the status bar (limited support)
+  navpanes=0   → Hides navigation pane (only works in Adobe Reader plugin)
+*/ -}}
+
+{{- $src := .Get "src" -}}
+{{- $height := .Get "height" | default "600px" -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $filename := .Get "filename" | default "Download PDF" -}}
+
+{{- printf `
+<iframe 
+  src="%s" 
+  width="%s" 
+  height="%s" 
+  style="border: none;" 
+  aria-label="Embedded PDF">
+  This browser does not support PDFs. Please download the file: 
+  <a href="%s">%s</a>.
+</iframe>` $src $width $height $src $filename }}

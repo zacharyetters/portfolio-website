@@ -4,38 +4,35 @@ summary: 'Resume'
 description: 'Resume'
 categories: []
 tags: []
-date: 2024-04-29
+date: 2025-05-11
 draft: false
 
 showDate : false
-showDateOnlyInArticle : false
-showDateUpdated : false
-showHeadingAnchors : false
-showPagination : false
+# showDateOnlyInArticle : false
+# showDateUpdated : false
+# showHeadingAnchors : false
+# showPagination : false
 showReadingTime : false
-showTableOfContents : false
-showTaxonomies : false 
-showWordCount : false
-showSummary : true
-sharingLinks : false
-showEdit: false
-showViews: false
-showLikes: false
+# showTableOfContents : false
+# showTaxonomies : false 
+# showWordCount : false
+# showSummary : true
+# sharingLinks : false
+# showEdit: false
+# showViews: false
+# showLikes: false
 showAuthor: false
-layoutBackgroundHeaderSpace: false
-showRelatedContent: false
+# layoutBackgroundHeaderSpace: false
+# showRelatedContent: false
 layout: simple
 ---
 
 
-<!-- This is my resume.
+This is my resume.
 
-{{< pdfviewer src="example.pdf#view=Fit&zoom=100" width="100%" height="800px" >}}
-
-page=X	Opens the PDF at a specific page (e.g., page=3).
-zoom=X	Sets the zoom level (e.g., zoom=50 for 50% or zoom=100 for full width).
-view=Fit	Fits the PDF to the viewer width.
-toolbar=0	Hides the toolbar in some browsers (Chrome doesn’t support this).
-scrollbar=0	Hides the scrollbars (may not work in all browsers).
-statusbar=0	Hides the status bar (limited browser support).
-navpanes=0	Hides the navigation panel (only works in Adobe Reader plugin). -->
+<!-- {{< embed-pdf 
+  src="example.pdf#zoom=100&navpanes=0" 
+  width="100%" 
+  height="800px" 
+  filename="Zachary Etters Resume"
+>}} -->
