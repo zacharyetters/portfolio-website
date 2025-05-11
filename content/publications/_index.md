@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-draft: true
+draft: false
 cardView: false
 groupByYear: true
 ---
