@@ -1,0 +1,184 @@
+<!-- {{/* 
+  Hugo PDF Viewer Shortcode 
+  Securely embeds PDFs from trusted paths using PDF.js with client-side controls.
+
+  Usage:
+  {{< pdf-viewer src="/resume/example.pdf" >}}
+
+  Required:
+  - Place PDFs in one of the trusted content folders.
+*/}}
+
+{{- $src := .Get "src" | relURL -}}
+
+{{/* 
+  List of trusted path prefixes relative to site root. 
+  Ensures PDFs are only loaded from safe locations.
+*/}}
+{{- $trustedPaths := slice "/resume/" "/projects/" "/publications/" "/about/" -}}
+{{- $valid := false -}}
+
+{{/* Validate the PDF source path against trusted directories */}}
+{{- range $trustedPaths }}
+  {{- if hasPrefix $src . }}
+    {{- $valid = true -}}
+  {{- end }}
+{{- end }}
+
+{{- if not $valid }}
+  {{ errorf "Invalid PDF source: must start with one of %q. Got %q" $trustedPaths $src }}
+{{- end }}
+
+{{- $uid := now.UnixNano -}}
+
+<div id="pdf-container-{{ $uid }}" class="{{ if eq .Page.Params.layout "simple" }}simple{{ else }}non-simple{{ end }}"
+  style="position: relative; text-align: center; background-color: rgb(var(--color-neutral-800)); padding: 20px; border-radius: 10px; overflow-x: auto; max-width: 100%;">
+
+  <style>
+    #navigation-container-{{ $uid }} button {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      padding: 0.4em 0.8em;
+    }
+
+    #navigation-container-{{ $uid }} button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(var(--color-primary-500), 0.3);
+    }
+
+    #navigation-container-{{ $uid }} button:active {
+      transform: translateY(1px) scale(0.97);
+      box-shadow: 0 2px 4px rgba(var(--color-primary-500), 0.2);
+    }
+
+    #navigation-container-{{ $uid }} {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+
+    .simple #the-canvas-{{ $uid }},
+    .non-simple #the-canvas-{{ $uid }} {
+      display: block;
+      margin: 0 auto;
+      border: 1.5px solid rgb(var(--color-neutral-500));
+      border-radius: 5px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .non-simple#pdf-container-{{ $uid }} {
+      padding: 20px 15px !important;
+    }
+
+    @media (max-width: 600px) {
+      .non-simple#pdf-container-{{ $uid }} {
+        padding: 20px 10px !important;
+      }
+
+      #navigation-container-{{ $uid }} span {
+        font-size: 0.9em;
+      }
+    }
+
+    #navigation-container-{{ $uid }} span {
+      white-space: nowrap;
+    }
+  </style>
+
+  <div id="navigation-container-{{ $uid }}">
+    <button id="prev-{{ $uid }}" style="width: 110px; background-color: rgb(var(--color-primary-500)); color: rgb(var(--color-neutral-50)); border: none; border-radius: 5px; cursor: pointer; font-size: 1em;">
+      Previous
+    </button>
+
+    <span style="color: rgb(var(--color-neutral-50)); font-size: 1em;">
+      Page: <span id="page_num-{{ $uid }}"></span> / <span id="page_count-{{ $uid }}"></span>
+    </span>
+
+    <button id="next-{{ $uid }}" style="width: 110px; background-color: rgb(var(--color-primary-500)); color: rgb(var(--color-neutral-50)); border: none; border-radius: 5px; cursor: pointer; font-size: 1em;">
+      Next
+    </button>
+  </div>
+
+  <canvas id="the-canvas-{{ $uid }}"></canvas>
+</div>
+
+<script type="module">
+  import * as pdfjsLib from 'https://cdn.jsdelivr.net/npm/pdfjs-dist@5.2.133/build/pdf.mjs';
+
+  const url = "{{ $src }}";
+  const uid = "{{ $uid }}";
+
+  const container = document.getElementById("pdf-container-" + uid);
+  const canvas = document.getElementById("the-canvas-" + uid);
+  const ctx = canvas.getContext("2d");
+
+  const prevBtn = document.getElementById("prev-" + uid);
+  const nextBtn = document.getElementById("next-" + uid);
+  const pageNumSpan = document.getElementById("page_num-" + uid);
+  const pageCountSpan = document.getElementById("page_count-" + uid);
+
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@5.2.133/build/pdf.worker.mjs';
+
+  let pdfDoc = null;
+  let pageNum = 1;
+  let pageRendering = false;
+  let pageNumPending = null;
+  const scale = 1.5;
+
+  function renderPage(num) {
+    pageRendering = true;
+    pdfDoc.getPage(num).then(page => {
+      const viewport = page.getViewport({ scale });
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+
+      const renderContext = {
+        canvasContext: ctx,
+        viewport: viewport
+      };
+
+      const renderTask = page.render(renderContext);
+
+      renderTask.promise.then(() => {
+        pageRendering = false;
+        if (pageNumPending !== null) {
+          renderPage(pageNumPending);
+          pageNumPending = null;
+        }
+      });
+
+      pageNumSpan.textContent = num;
+    });
+  }
+
+  function queueRenderPage(num) {
+    if (pageRendering) {
+      pageNumPending = num;
+    } else {
+      renderPage(num);
+    }
+  }
+
+  prevBtn.addEventListener("click", () => {
+    if (pageNum <= 1) return;
+    pageNum--;
+    queueRenderPage(pageNum);
+  });
+
+  nextBtn.addEventListener("click", () => {
+    if (pageNum >= pdfDoc.numPages) return;
+    pageNum++;
+    queueRenderPage(pageNum);
+  });
+
+  pdfjsLib.getDocument(url).promise.then(doc => {
+    pdfDoc = doc;
+    pageCountSpan.textContent = doc.numPages;
+    renderPage(pageNum);
+  }).catch(error => {
+    container.innerHTML = `<p style="color: white;">Failed to load PDF. <a href="${url}">Download it here</a>.</p>`;
+    console.error("PDF.js error:", error);
+  });
+</script> -->
