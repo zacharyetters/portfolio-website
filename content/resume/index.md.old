@@ -27,12 +27,16 @@ showAuthor: false
 layout: simple
 ---
 
-
-This is my resume.
-
-<!-- {{< embed-pdf 
-  src="example.pdf#zoom=100&navpanes=0" 
+<!-- ## Embed PDF
+{{< embed-pdf 
+  src="/resume/example.pdf" 
+  params="page=1&navpanes=0"
   width="100%" 
   height="800px" 
-  filename="Zachary Etters Resume"
->}} -->
+  filename="example.pdf"
+>}}
+
+
+
+## PDF JS
+{{< pdf-js src="/resume/example.pdf" >}} -->

@@ -1,19 +1,45 @@
-{{- /* 
-  PDF Viewer URL Parameters Reference:
+<!-- {{- /*
+  Hugo Shortcode: embed-pdf
 
-  page=X       → Opens the PDF at a specific page (e.g., page=3)
-  zoom=X       → Sets the zoom level (e.g., zoom=50 for 50% or zoom=100 for full width)
-  view=Fit     → Fits the PDF to the viewer width
-  toolbar=0    → Hides the toolbar (Chrome doesn't support this)
-  scrollbar=0  → Hides scrollbars (may not work in all browsers)
-  statusbar=0  → Hides the status bar (limited support)
-  navpanes=0   → Hides navigation pane (only works in Adobe Reader plugin)
+  Embeds a PDF file in an iframe with optional viewer parameters.
+  Includes graceful fallback for unsupported browsers.
+
+  ────────────────────────────────────────────────────────────────
+  Parameters:
+    src       (required)  → Path or URL to the PDF file.
+    filename  (optional)  → Download link text shown in fallback (default: "Download PDF").
+    height    (optional)  → Height of the iframe (default: "600px").
+    width     (optional)  → Width of the iframe (default: "100%").
+    params    (optional)  → PDF viewer URL hash parameters (e.g., "page=2&zoom=100").
+
+  ────────────────────────────────────────────────────────────────
+  Example usage:
+  {{< embed-pdf 
+  src="/resume/example.pdf" 
+  params="page=1&navpanes=0"
+  width="100%" 
+  height="800px" 
+  filename="example.pdf"
+  >}}
+
+  ────────────────────────────────────────────────────────────────
+  PDF Parameters (when applicable):
+    #page=X       → Opens the PDF at a specific page (e.g., page=3)
+    #zoom=X       → Sets zoom level (e.g., 50 for 50%, or 100 for full width)
+    #view=Fit     → Fits the PDF to viewer width
+    #toolbar=0    → Hides toolbar (browser support varies)
+    #scrollbar=0  → Hides scrollbars (limited support)
+    #statusbar=0  → Hides status bar
+    #navpanes=0   → Hides navigation pane (Adobe plugin only)
 */ -}}
 
 {{- $src := .Get "src" -}}
 {{- $height := .Get "height" | default "600px" -}}
 {{- $width := .Get "width" | default "100%" -}}
 {{- $filename := .Get "filename" | default "Download PDF" -}}
+{{- $params := .Get "params" -}}
+
+{{- $fullSrc := cond (ne $params "") (printf "%s#%s" $src $params) $src -}}
 
 {{- printf `
 <iframe 
@@ -21,7 +47,9 @@
   width="%s" 
   height="%s" 
   style="border: none;" 
+  loading="lazy"
+  title="PDF viewer"
   aria-label="Embedded PDF">
   This browser does not support PDFs. Please download the file: 
   <a href="%s">%s</a>.
-</iframe>` $src $width $height $src $filename | safeHTML }}
+</iframe>` $fullSrc $width $height $src $filename | safeHTML }} -->
