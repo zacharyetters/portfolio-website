@@ -10,7 +10,7 @@ defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 summaryLength = 0
-paginate = 9
+# paginate = 9
 
 buildDrafts = true
 buildFuture = false
@@ -20,7 +20,7 @@ enableEmoji = true
 # googleAnalytics = "G-N3YXE0GFFY"
 
 [pagination]
-  pagerSize = 100
+  pagerSize = 9
 
 [imaging]
   anchor = 'Center'
@@ -81,7 +81,12 @@ enableEmoji = true
     disable = true
     # simple = false
 
-  [privacy.twitter]
+  # [privacy.twitter]
+  #   disable = true
+  #   # enableDNT = false
+  #   # simple = false
+
+  [privacy.x]
     disable = true
     # enableDNT = false
     # simple = false
