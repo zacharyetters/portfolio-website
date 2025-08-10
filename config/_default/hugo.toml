@@ -10,17 +10,16 @@ defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 summaryLength = 0
-paginate = 9
 
 buildDrafts = true
 buildFuture = false
 
 enableEmoji = true
 
-# googleAnalytics = "G-N3YXE0GFFY"
+# googleAnalytics = "G-XXXXXXXXX"
 
 [pagination]
-  pagerSize = 100
+  pagerSize = 9
 
 [imaging]
   anchor = 'Center'
@@ -68,29 +67,3 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
-
-[privacy]
-  [privacy.disqus]
-    disable = true
-    
-  [privacy.googleAnalytics]
-    disable = true
-    # respectDoNotTrack = false
-
-  [privacy.instagram]
-    disable = true
-    # simple = false
-
-  [privacy.twitter]
-    disable = true
-    # enableDNT = false
-    # simple = false
-
-  [privacy.vimeo]
-    disable = true
-    # enableDNT = false
-    # simple = false
-
-  [privacy.youtube]
-    disable = true
-    # privacyEnhanced = false
