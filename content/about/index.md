@@ -21,7 +21,7 @@ showReadingTime : false
 # showEdit: false
 # showViews: false
 # showLikes: false
-# layoutBackgroundHeaderSpace: false
+layoutBackgroundHeaderSpace: false
 # showRelatedContent: false
 showAuthor: false
 # showZenMode: true
