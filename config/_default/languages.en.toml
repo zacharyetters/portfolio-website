@@ -11,7 +11,7 @@ title = "Zachary's Portfolio"
   dateFormat = "January 2, 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "Explore the portfolio of Zachary Etters, a cybersecurity and network administration professional skilled in secure network design, cloud computing, and incident response. Showcasing hands-on projects, advanced education, and expertise in real-world IT solutions."
+  description = "Explore the portfolio of Zachary Etters, a cybersecurity and network administration professional skilled in secure network design and cloud computing."
   copyright = "© 2025 Zachary Etters"
 
 [params.author]

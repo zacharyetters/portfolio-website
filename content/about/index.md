@@ -1,7 +1,7 @@
 ---
 title: 'About'
-# summary: 'All about me'
-# description: 'All about me'
+summary: 'Zachary Etters, Graduate Student in Cybersecurity Analytics and Operations at Penn State, specializing in network security, infrastructure design, and cybersecurity solutions.'
+description: 'Zachary Etters, Graduate Student in Cybersecurity Analytics and Operations at Penn State, specializing in network security, infrastructure design, and cybersecurity solutions.'
 # categories: []
 # tags: []
 date: 2025-02-24
