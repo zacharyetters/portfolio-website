@@ -3,7 +3,6 @@ title: "Publications"
 draft: false
 cardView: false
 groupByYear: true
-date: 2025-05-09
 sitemap:
   priority: 0.6
   changefreq: "monthly"
