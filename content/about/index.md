@@ -1,20 +1,23 @@
 ---
-title: 'About'
-summary: 'Zachary Etters, Graduate Student in Cybersecurity Analytics and Operations at Penn State, specializing in network security, infrastructure design, and cybersecurity solutions.'
-description: 'Zachary Etters, Graduate Student in Cybersecurity Analytics and Operations at Penn State, specializing in network security, infrastructure design, and cybersecurity solutions.'
+title: "About"
+summary: "Zachary Etters, Graduate Student in Cybersecurity Analytics and Operations at Penn State, specializing in network security, infrastructure design, and cybersecurity solutions."
+description: "Zachary Etters, Graduate Student in Cybersecurity Analytics and Operations at Penn State, specializing in network security, infrastructure design, and cybersecurity solutions."
 # categories: []
 # tags: []
 date: 2025-02-24
 draft: false
+sitemap:
+  priority: 0.8
+  changefreq: "monthly"
 
-showDate : false
+showDate: false
 # showDateOnlyInArticle : true
 # showDateUpdated : false
 # showHeadingAnchors : false
 # showPagination : false
-showReadingTime : false
+showReadingTime: false
 # showTableOfContents : false
-# showTaxonomies : false 
+# showTaxonomies : false
 # showWordCount : false
 # showSummary : true
 # sharingLinks : false
@@ -28,17 +31,18 @@ showAuthor: false
 ---
 
 {{< alert >}}
-**This website is a work in progress!** 
+**This website is a work in progress!**
 {{< /alert >}}
 
 ## Summary
-This website serves as a platform to showcase my skills and the projects I've completed throughout my journey in network administration, cybersecurity, and cloud computing. 
+
+This website serves as a platform to showcase my skills and the projects I've completed throughout my journey in network administration, cybersecurity, and cloud computing.
 
 Here, you'll find an overview of the hands-on experience I've gained in designing secure, scalable network infrastructures and utilizing various tools and technologies to tackle real-world challenges effectively.
 
 ## Education
-{{< timeline >}}
 
+{{< timeline >}}
 
 {{< timelineItem icon="graduation-cap" header="The Pennsylvania State University" >}}
 
@@ -50,7 +54,6 @@ Here, you'll find an overview of the hands-on experience I've gained in designin
 </ul>
 
 {{< /timelineItem >}}
-
 
 {{< timelineItem icon="graduation-cap" header="Pennsylvania College of Technology" >}}
 
@@ -70,7 +73,6 @@ Here, you'll find an overview of the hands-on experience I've gained in designin
 
 {{< /timelineItem >}}
 
-
 {{< timelineItem icon="graduation-cap" header="Central Pennsylvania Institute of Science and Technology" >}}
 
 <h4 style="margin-top: 0rem;">Diploma in Information Technology</h4> (May 2020)
@@ -81,7 +83,6 @@ Here, you'll find an overview of the hands-on experience I've gained in designin
 </ul>
 
 {{< /timelineItem >}}
-
 
 {{< /timeline >}}
 
