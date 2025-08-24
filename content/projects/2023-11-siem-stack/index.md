@@ -1,7 +1,7 @@
 ---
 title: 'Building a SIEM Stack with Wazuh'
-summary: 'In this post I will showcase my SIEM Stack.'
-description: 'In this post I will showcase my SIEM Stack.'
+summary: 'This post showcases my SIEM stack, highlighting setup, configuration, and how it collects and analyzes security data.'
+description: 'Demonstrating my SIEM stack deployment, including setup, data collection, and security monitoring insights.'
 categories: []
 tags: []
 date: 2023-11-15

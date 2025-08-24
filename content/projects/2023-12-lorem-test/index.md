@@ -1,7 +1,7 @@
 ---
 title: 'Lorem Ipsum'
-summary: 'This test post showcases the layout of the page within this theme.'
-description: 'This test post showcases the layout of the page within this theme.'
+summary: 'This test post showcases the page layout within this theme, highlighting design structure and content presentation.'
+description: 'Demonstrating the page layout in this theme, including structure, design elements, and content organization.'
 categories: []
 tags: []
 date: 2023-12-02

@@ -1,7 +1,7 @@
 ---
 title: 'Implementing VoIP with FreePBX'
-summary: 'I will implement a VoIP system with FreePBX'
-description: 'I will implement a VoIP system with FreePBX'
+summary: 'This post showcases the implementation of a VoIP system using FreePBX, highlighting setup, configuration, and key insights.'
+description: 'Demonstrating a VoIP system deployment with FreePBX, including installation, configuration, and practical lessons learned.'
 categories: []
 tags: []
 date: 2023-11-07

@@ -1,7 +1,7 @@
 ---
 title: 'Designing a vSphere Cluster with a SAN'
-summary: 'This post will showcase a project where I deployed ESXi to three host and managed them with vCenter.'
-description: 'This post will showcase a project where I deployed ESXi to three host and managed them with vCenter.'
+summary: 'This post showcases a project deploying ESXi on three hosts and managing them with vCenter, highlighting setup, configuration, and best practices.'
+description: 'Demonstrating an ESXi deployment across three hosts with vCenter management, including installation, configuration, and key insights.'
 categories: []
 tags: []
 date: 2023-02-13

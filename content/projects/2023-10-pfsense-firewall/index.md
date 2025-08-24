@@ -1,7 +1,7 @@
 ---
 title: 'Using PFsense as a Firewall'
-summary: 'In this post I will showcase my Firewall implementation with PFsense.'
-description: 'In this post I will showcase my Firewall implementation with PFsense.'
+summary: 'This post showcases my firewall implementation using pfSense, highlighting setup, configuration, and security features.'
+description: 'Demonstrating a pfSense firewall deployment, including installation, configuration, and key security insights.'
 categories: []
 tags: []
 date: 2023-10-11

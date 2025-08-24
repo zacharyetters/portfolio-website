@@ -1,7 +1,7 @@
 ---
 title: 'Deploying OpenStack'
-summary: 'In this post I will show my deployment of OpenStack'
-description: 'In this post I will show my deployment of OpenStack'
+summary: 'This post showcases my OpenStack deployment, highlighting setup, configuration, and cloud management practices.'
+description: 'Demonstrating an OpenStack deployment, including installation, configuration, and key insights into cloud infrastructure management.'
 categories: []
 tags: []
 date: 2023-02-27

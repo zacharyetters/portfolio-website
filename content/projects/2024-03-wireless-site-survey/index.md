@@ -1,7 +1,7 @@
 ---
 title: 'Conducting a Wireless Site Survey'
-summary: 'This post will showcase me completing my first Wireless Site Survey.'
-description: 'This post will showcase me completing my first Wireless Site Survey.'
+summary: 'This post showcases my first Wireless Site Survey, highlighting methodology, tools used, and key observations.'
+description: 'Demonstrating my first Wireless Site Survey, including process, tools, and insights gained from the assessment.'
 categories: []
 tags: []
 date: 2024-03-15
