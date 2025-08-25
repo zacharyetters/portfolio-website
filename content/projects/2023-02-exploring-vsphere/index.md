@@ -5,7 +5,7 @@ description: 'Demonstrating an ESXi deployment across three hosts with vCenter m
 categories: []
 tags: []
 date: 2023-02-13
-draft: true
+draft: false
 ---
 
 # Introduction

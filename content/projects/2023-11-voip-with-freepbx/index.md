@@ -5,7 +5,7 @@ description: 'Demonstrating a VoIP system deployment with FreePBX, including ins
 categories: []
 tags: []
 date: 2023-11-07
-draft: true
+draft: false
 ---
 
 # Introduction

@@ -5,7 +5,7 @@ description: 'Demonstrating an OpenStack deployment, including installation, con
 categories: []
 tags: []
 date: 2023-02-27
-draft: true
+draft: false
 ---
 
 # Introduction

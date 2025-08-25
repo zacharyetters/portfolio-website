@@ -5,7 +5,7 @@ description: 'Developed a disaster recovery plan for a fictitious civil engineer
 categories: []
 tags: []
 date: 2024-12-09
-draft: true
+draft: false
 ---
 
 # Introduction

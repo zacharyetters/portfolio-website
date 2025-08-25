@@ -5,7 +5,7 @@ description: 'Exploring Microsoft 365 platform experience, including lessons lea
 categories: []
 tags: []
 date: 2024-10-25
-draft: true
+draft: false
 ---
 
 # Introduction

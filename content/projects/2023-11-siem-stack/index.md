@@ -5,7 +5,7 @@ description: 'Demonstrating my SIEM stack deployment, including setup, data coll
 categories: []
 tags: []
 date: 2023-11-15
-draft: true
+draft: false
 ---
 
 # Introduction

@@ -5,7 +5,7 @@ description: 'Demonstrating a pfSense firewall deployment, including installatio
 categories: []
 tags: []
 date: 2023-10-11
-draft: true
+draft: false
 ---
 
 # Introduction

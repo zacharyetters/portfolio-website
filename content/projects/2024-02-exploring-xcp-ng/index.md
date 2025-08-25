@@ -5,7 +5,7 @@ description: 'Showcasing the XCP-ng platform deployment, including setup, config
 categories: []
 tags: []
 date: 2024-02-20
-draft: true
+draft: false
 ---
 
 # Introduction

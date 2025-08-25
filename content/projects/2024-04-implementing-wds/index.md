@@ -5,7 +5,7 @@ description: 'Showcasing a Windows Deployment Services (WDS) deployment, includi
 categories: []
 tags: []
 date: 2024-04-11
-draft: true
+draft: false
 ---
 
 # Introduction
