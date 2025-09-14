@@ -35,12 +35,12 @@ themes/             # Hugo themes (Blowfish)
 ## Build Locally
 1. [Install Hugo](https://gohugo.io/installation/)
 2. Clone this repository:
-   ```sh
+   ```bash
    git clone https://github.com/zacharyetters/portfolio-website.git
    cd portfolio-website
    ```
 3. Start the local development server:
-   ```sh
+   ```bash
    hugo server -FD
    ```
 4. Visit `http://localhost:1313` in your browser.
