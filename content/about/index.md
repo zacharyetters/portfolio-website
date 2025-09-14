@@ -30,10 +30,6 @@ showAuthor: false
 # showZenMode: true
 ---
 
-{{< alert >}}
-**This website is a work in progress!**
-{{< /alert >}}
-
 ## Summary
 
 This website serves as a platform to showcase my skills and the projects I've completed throughout my journey in network administration, cybersecurity, and cloud computing.
