@@ -15,7 +15,7 @@ This repository contains the source code for my personal portfolio website that 
 
 ## Technologies Used
 - [Hugo](https://gohugo.io/)
-- [Blowfish](https://blowfish.page/)
+- [Blowfish](https://github.com/nunocoracao/blowfish)
 - HTML and CSS
 
 ## Repository Structure
