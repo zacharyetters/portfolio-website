@@ -1,6 +1,6 @@
 ---
 title: "About"
-summary: "Zachary Etters, Graduate Student in Cybersecurity Analytics and Operations at Penn State, specializing in network security, infrastructure design, and cybersecurity solutions."
+summary: "Learn more about my background, education, and journey in cybersecurity, network administration, and IT. This page highlights my academic achievements and the experiences that have shaped my career."
 description: "Zachary Etters, Graduate Student in Cybersecurity Analytics and Operations at Penn State, specializing in network security, infrastructure design, and cybersecurity solutions."
 # categories: []
 # tags: []

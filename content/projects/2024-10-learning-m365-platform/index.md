@@ -1,13 +1,11 @@
 ---
 title: 'Learning Microsoft 365'
-summary: 'In this post, I share my experience with the Microsoft 365 platform, highlighting key lessons learned and showcasing deployments I have completed.'
-description: 'Exploring Microsoft 365 platform experience, including lessons learned and real-world deployments I’ve completed.'
+summary: 'Explored the Microsoft 365 platform, deploying and managing cloud services to enhance productivity and collaboration.'
+description: 'Shares experience with Microsoft 365 administration, including service configuration, user management, and lessons learned from real deployments.'
 categories: []
 tags: []
 date: 2024-10-25
 draft: false
 ---
 
-# Introduction
-
-Work In Progress
+Content coming soon. Check back for updates!

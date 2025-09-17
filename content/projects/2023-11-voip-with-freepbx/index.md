@@ -1,13 +1,11 @@
 ---
 title: 'Implementing VoIP with FreePBX'
-summary: 'This post showcases the implementation of a VoIP system using FreePBX, highlighting setup, configuration, and key insights.'
-description: 'Demonstrating a VoIP system deployment with FreePBX, including installation, configuration, and practical lessons learned.'
+summary: 'Set up a VoIP phone system using FreePBX, exploring call routing, SIP trunking, and unified communications features.'
+description: 'Explains the deployment of a FreePBX-based VoIP solution, including configuration of extensions, trunks, and real-world troubleshooting.'
 categories: []
 tags: []
 date: 2023-11-07
 draft: false
 ---
 
-# Introduction
-
-Work In Progress
+Content coming soon. Check back for updates!

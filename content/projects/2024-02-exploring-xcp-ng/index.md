@@ -1,15 +1,11 @@
 ---
 title: 'Exploring XCP-ng'
-summary: 'In this post, I build out the XCP-ng platform, highlighting installation, configuration, and best practices.'
-description: 'Showcasing the XCP-ng platform deployment, including setup, configuration, and key lessons learned.'
+summary: 'Deployed and managed XCP-ng for virtualization, highlighting platform features, VM provisioning, and network integration.'
+description: 'Explores the setup and administration of XCP-ng, with a focus on hypervisor capabilities, storage, and real-world use cases for virtualized infrastructure.'
 categories: []
 tags: []
 date: 2024-02-20
 draft: false
 ---
 
-# Introduction
-
-# Topology
-
-Work In Progress
+Content coming soon. Check back for updates!

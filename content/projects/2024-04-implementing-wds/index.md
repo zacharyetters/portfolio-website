@@ -1,13 +1,11 @@
 ---
 title: 'Implementing WDS with MDT'
-summary: 'In this post, I describe and showcase my Windows Deployment Services (WDS) deployment, highlighting setup, configuration, and key insights.'
-description: 'Showcasing a Windows Deployment Services (WDS) deployment, including setup, configuration, and practical lessons learned.'
+summary: 'Automated Windows deployments using WDS and MDT, streamlining OS provisioning and reducing manual effort in IT environments.'
+description: 'Covers the integration of Windows Deployment Services and Microsoft Deployment Toolkit, with a focus on task sequences, image management, and deployment automation.'
 categories: []
 tags: []
 date: 2024-04-11
 draft: false
 ---
 
-# Introduction
-
-Work In Progress
+Content coming soon. Check back for updates!

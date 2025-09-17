@@ -1,13 +1,11 @@
 ---
 title: 'Creating my Portfolio Website'
-summary: 'This post showcases the creation of this website, highlighting design choices, development process, and key features.'
-description: 'Demonstrating the development of this website, including design, implementation, and practical insights.'
+summary: 'Designed and built this portfolio site from the ground up, focusing on clean design, accessibility, and performance.'
+description: 'Covers the process of developing a personal portfolio with Hugo and Blowfish, including theme customization, content strategy, and deployment to Cloudflare.'
 categories: []
 tags: []
 date: 2023-12-02
 draft: false
 ---
 
-# Introduction
-
-Work In Progress
+Content coming soon. Check back for updates!

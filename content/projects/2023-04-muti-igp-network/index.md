@@ -1,14 +1,13 @@
 ---
 title: 'Building a Multi-IGP Network'
-summary: 'This post showcases the buildout of a multi-IGP network using Cisco hardware on GNS3, highlighting design, configuration, and routing strategies.'
-description: 'Demonstrating a multi-IGP network deployment with Cisco devices on GNS3, including setup, configuration, and practical insights.'
+summary: 'Designed and simulated a complex multi-IGP network using Cisco hardware in GNS3, focusing on advanced routing and interoperability.'
+description: 'Showcases the architecture and configuration of a multi-IGP network lab, highlighting routing strategies, protocol integration, and troubleshooting in a virtualized Cisco environment.'
 categories: []
 tags: []
 date: 2023-04-01
 draft: false
 ---
 
-# Introduction
-![Topology](igp-topology.png)
+Content coming soon. Check back for updates!
 
-Work In Progress
+![Topology](igp-topology.png)

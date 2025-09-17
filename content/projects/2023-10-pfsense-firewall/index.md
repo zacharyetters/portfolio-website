@@ -1,13 +1,11 @@
 ---
 title: 'Using PFsense as a Firewall'
-summary: 'This post showcases my firewall implementation using pfSense, highlighting setup, configuration, and security features.'
-description: 'Demonstrating a pfSense firewall deployment, including installation, configuration, and key security insights.'
+summary: 'Implemented a pfSense firewall to secure and segment network traffic, emphasizing real-world security policies and monitoring.'
+description: 'Covers the deployment and configuration of pfSense as a network firewall, with insights into rule creation, NAT, and practical security enhancements.'
 categories: []
 tags: []
 date: 2023-10-11
 draft: false
 ---
 
-# Introduction
-
-Work In Progress
+Content coming soon. Check back for updates!

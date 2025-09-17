@@ -1,13 +1,11 @@
 ---
 title: 'Conducting a Wireless Site Survey'
-summary: 'This post showcases my first Wireless Site Survey, highlighting methodology, tools used, and key observations.'
-description: 'Demonstrating my first Wireless Site Survey, including process, tools, and insights gained from the assessment.'
+summary: 'Performed a wireless site survey to assess coverage, identify dead zones, and optimize Wi-Fi performance in a real environment.'
+description: 'Describes the methodology, tools, and findings from a hands-on wireless site survey, with recommendations for improving network reliability.'
 categories: []
 tags: []
 date: 2024-03-15
 draft: false
 ---
 
-# Introduction
-
-Work In Progress
+Content coming soon. Check back for updates!

@@ -1,13 +1,11 @@
 ---
 title: 'Deploying OpenStack'
-summary: 'This post showcases my OpenStack deployment, highlighting setup, configuration, and cloud management practices.'
-description: 'Demonstrating an OpenStack deployment, including installation, configuration, and key insights into cloud infrastructure management.'
+summary: 'Deployed a private cloud with OpenStack from scratch—detailing the challenges, architecture decisions, and automation strategies I used to build a scalable environment.'
+description: 'Step-by-step, I deployed an OpenStack private cloud: from bare-metal install, through configuring compute, storage, and networking, to automating and troubleshooting real-world infrastructure.'
 categories: []
 tags: []
 date: 2023-02-27
 draft: false
 ---
 
-# Introduction
-
-Work In Progress
+Content coming soon. Check back for updates!

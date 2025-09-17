@@ -1,13 +1,11 @@
 ---
 title: 'Designing Resilient Network Architecture for Haven Health'
-summary: 'This post will showcase the network I designed for Haven Health, a fictitious healthcare provider, with a focus on security, scalability, and HIPAA compliance.'
-description: 'Building a reliable, HIPAA-compliant multi-site network for Haven Health, focusing on scalability, VPNs, network segmentation, and disaster recovery.'
+summary: 'Architected a secure, scalable network for a healthcare provider, emphasizing HIPAA compliance and multi-site connectivity.'
+description: 'Describes the design and implementation of a resilient network for Haven Health, with a focus on security, VPNs, segmentation, and disaster recovery best practices.'
 categories: []
 tags: []
 date: 2025-04-29
 draft: false
 ---
 
-# Introduction
-
-Work In Progress
+Content coming soon. Check back for updates!
