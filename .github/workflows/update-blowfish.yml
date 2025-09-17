@@ -2,7 +2,7 @@ name: Update Blowfish Submodule
 
 on:
   schedule:
-    - cron: '0 3 * * 1' # Every Monday at 3:00 AM UTC
+    - cron: "0 3 * * 1" # Every Monday at 3:00 AM UTC
   workflow_dispatch:
 
 jobs:
@@ -44,7 +44,7 @@ jobs:
           title: "Update Blowfish submodule to ${{ steps.blowfish-version.outputs.version }}"
           body: |
             This PR updates the Blowfish theme submodule to the latest commit from upstream.
-            
+
             Updated to version: ${{ steps.blowfish-version.outputs.version }}
           branch: update/blowfish-${{ steps.blowfish-version.outputs.version }}
           delete-branch: true
