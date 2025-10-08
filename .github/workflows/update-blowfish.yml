@@ -14,7 +14,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Git user
         run: |
@@ -44,3 +44,4 @@ jobs:
             Updated to version: ${{ steps.blowfish-version.outputs.version }}
           branch: update/blowfish-${{ steps.blowfish-version.outputs.version }}
           delete-branch: true
+          token: ${{ secrets.PAT_TOKEN }}
