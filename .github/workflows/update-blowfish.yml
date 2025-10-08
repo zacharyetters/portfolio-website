@@ -25,11 +25,6 @@ jobs:
         run: |
           git submodule update --init --remote --force
 
-      - name: Commit changes
-        run: |
-          git add themes/blowfish
-          git commit -m "chore: update Blowfish submodule to latest (${{ steps.blowfish-version.outputs.version }})" || echo "No changes to commit"
-
       - name: Get Blowfish version
         id: blowfish-version
         run: |
