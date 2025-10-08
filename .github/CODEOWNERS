@@ -1,0 +1,7 @@
+# CODEOWNERS
+# This file defines who owns specific parts of the repository.
+# GitHub automatically requests reviews from code owners
+# when a pull request modifies owned files.
+
+# Default owner for everything in the repo
+*   @zacharyetters
