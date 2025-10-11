@@ -1,0 +1,4 @@
+name = "portfolio-website"
+
+[vars]
+HUGO_VERSION = "0.151.0"
