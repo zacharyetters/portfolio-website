@@ -32,6 +32,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "update Hugo version to v${{ env.HUGO_VERSION }}"
           title: "⚙️ Chore(Hugo): Update Hugo version to v${{ env.HUGO_VERSION }}"
           body: |
