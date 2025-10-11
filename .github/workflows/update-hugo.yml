@@ -1,0 +1,42 @@
+name: Update Hugo Version from Blowfish Repo
+
+on:
+  schedule:
+    - cron: "30 6 * * *" # Everyday at 6:30 AM UTC
+  workflow_dispatch:
+
+jobs:
+  update-hugo:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout the repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Fetch latest verified Hugo version from Blowfish repo
+      - name: Get latest verified Hugo version
+        id: fetch_version
+        run: |
+          raw_url="https://raw.githubusercontent.com/nunocoracao/blowfish/main/release-versions/hugo-latest.txt"
+          version=$(curl -s $raw_url)
+          # remove leading 'v'
+          version_no_v="${version#v}"
+          echo "HUGO_VERSION=$version_no_v" >> $GITHUB_ENV
+          echo "Latest verified Hugo version: $version_no_v"
+
+      # 3. Update wrangler.toml (or cloudflare.toml)
+      - name: Update wrangler.toml
+        run: |
+          sed -i "s/^HUGO_VERSION = .*/HUGO_VERSION = \"${{ env.HUGO_VERSION }}\"/" wrangler.toml
+
+      # 4. Commit and push changes (optional)
+      - name: Commit updated wrangler.toml
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add wrangler.toml
+          git commit -m "Update Hugo version to ${{ env.HUGO_VERSION }}"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
