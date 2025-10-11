@@ -48,4 +48,3 @@ jobs:
           branch: update/blowfish-${{ steps.blowfish-version.outputs.version }}
           delete-branch: true
           labels: "dependencies"
-          reviewers: zacharyetters
