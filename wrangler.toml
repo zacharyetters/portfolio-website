@@ -1,6 +1,6 @@
 name = "portfolio-website"
 pages_build_output_dir = "public"
-compatibility_date = "2025-09-15"
+# compatibility_date = "2025-09-15"
 
 [vars]
-HUGO_VERSION = "0.151.0"
+HUGO_VERSION = "0.150.0"
