@@ -8,13 +8,15 @@ on:
 jobs:
   update-blowfish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository (with submodules)
         uses: actions/checkout@v5
         with:
           submodules: recursive
           fetch-depth: 0
-          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Git user
         run: |
@@ -36,7 +38,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "chore: update Blowfish submodule to latest (${{ steps.blowfish-version.outputs.version }})"
+          commit-message: "update Blowfish submodule to latest (${{ steps.blowfish-version.outputs.version }})"
           title: "⚙️ Chore(submodule): Update Blowfish submodule to ${{ steps.blowfish-version.outputs.version }}"
           body: |
             This PR updates the Blowfish theme submodule to the latest commit from upstream.
@@ -45,4 +47,3 @@ jobs:
           branch: update/blowfish-${{ steps.blowfish-version.outputs.version }}
           delete-branch: true
           labels: "dependencies"
-          token: ${{ secrets.PAT_TOKEN }}
