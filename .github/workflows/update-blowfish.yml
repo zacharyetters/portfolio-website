@@ -38,6 +38,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.PAT_TOKEN }}
           commit-message: "update Blowfish submodule to latest (${{ steps.blowfish-version.outputs.version }})"
           title: "⚙️ Chore(submodule): Update Blowfish submodule to ${{ steps.blowfish-version.outputs.version }}"
           body: |
