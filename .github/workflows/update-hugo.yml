@@ -9,14 +9,12 @@ jobs:
   update-hugo:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # Allows the workflow to push changes
+      contents: write
 
     steps:
-      # 1. Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Fetch latest verified Hugo version from Blowfish repo
       - name: Get latest verified Hugo version
         id: fetch_version
         run: |
@@ -26,16 +24,19 @@ jobs:
           echo "HUGO_VERSION=$version_no_v" >> $GITHUB_ENV
           echo "Latest verified Hugo version: $version_no_v"
 
-      # 3. Update wrangler.toml
       - name: Update wrangler.toml
         run: |
           sed -i "s/^HUGO_VERSION = .*/HUGO_VERSION = \"${{ env.HUGO_VERSION }}\"/" wrangler.toml
 
-      # 4. Commit and push changes
-      - name: Commit and push updated wrangler.toml
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add wrangler.toml
-          git commit -m "Update Hugo version to ${{ env.HUGO_VERSION }}" || echo "No changes to commit"
-          git push
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "update Hugo version to v${{ env.HUGO_VERSION }}"
+          title: "⚙️ Chore(Hugo): Update Hugo version to v${{ env.HUGO_VERSION }}"
+          body: |
+            This PR updates the Hugo version in `wrangler.toml` to the latest verified version from Blowfish.
+
+            Updated to version: ${{ env.HUGO_VERSION }}
+          branch: update/hugo-${{ env.HUGO_VERSION }}
+          delete-branch: true
+          labels: "dependencies"
