@@ -12,7 +12,7 @@ title = "Zachary's Portfolio"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "Explore the portfolio of Zachary Etters, a cybersecurity and network administration professional skilled in secure network design and cloud computing."
-  copyright = "© 2025 Zachary Etters"
+  copyright = "© 2023 Zachary Etters"
 
 [params.author]
   name = "Zachary Etters"
