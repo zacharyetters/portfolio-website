@@ -31,7 +31,7 @@ jobs:
         run: |
           current_year=$(date +%Y)
           echo "current_year=$current_year" >> $GITHUB_OUTPUT
-          file_path="/config/_default/languages.en.toml"
+          file_path="config/_default/languages.en.toml"
 
           if [ -f "$file_path" ]; then
             sed -i "s/copyright = \"© [0-9]\{4\} Zachary Etters\"/copyright = \"© ${current_year} Zachary Etters\"/" "$file_path"
