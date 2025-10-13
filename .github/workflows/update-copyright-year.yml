@@ -3,6 +3,9 @@ name: Update Copyright Year
 on:
   schedule:
     - cron: "0 5 1 1 *" # 00:00 EST (5:00 AM UTC) on Jan 1 each year
+  push:
+    branches:
+      - test-yearly-copyright
   workflow_dispatch:
 
 jobs:
