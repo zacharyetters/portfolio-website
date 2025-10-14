@@ -3,9 +3,6 @@ name: Update Copyright Year
 on:
   schedule:
     - cron: "0 5 1 1 *" # 00:00 EST (5:00 AM UTC) on Jan 1 each year
-  push:
-    branches:
-      - test-yearly-copyright
   workflow_dispatch:
 
 jobs:
@@ -59,7 +56,7 @@ jobs:
           title: "⚙️ Chore(copyright): Update copyright year to ${{ steps.update-year.outputs.current_year }}"
           body: |
             This PR updates the copyright year in:
-            `portfolio-website/config/_default/languages.en.toml`
+            `config/_default/languages.en.toml`
 
             Updated to: © ${{ steps.update-year.outputs.current_year }} Zachary Etters
 
