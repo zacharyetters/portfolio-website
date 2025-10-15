@@ -6,7 +6,8 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "cron"
+      cronjob: "0 13 * * *" # Every day at 13:00 UTC (08:00 EST)
     commit-message:
       prefix: "👷 Chore(workflows): "
     labels:
