@@ -6,11 +6,8 @@ Thank you for taking the time to report a security vulnerability in this project
 
 Please report security issues privately using GitHub's confidential vulnerability reporting for this repository. The recommended way is to open a report via the repository's Security → "Report a vulnerability" form on GitHub:
 
-https://github.com/zacharyetters/portfolio-website/security/advisories/new
-
-For guidance on using GitHub's vulnerability reporting flow, see:
-
-https://docs.github.com/en/code-security/reporting-a-vulnerability
+- Report a vulnerability (confidential): [Open a private report](https://github.com/zacharyetters/portfolio-website/security/advisories/new)
+- GitHub docs: [Reporting a vulnerability](https://docs.github.com/en/enterprise-cloud@latest/code-security/security-advisories/working-with-repository-security-advisories/creating-a-repository-security-advisory)
 
 When filing a report, include:
 
@@ -18,6 +15,7 @@ When filing a report, include:
 - Steps to reproduce (minimal repro if possible)
 - The affected version(s) and files
 - Any suggested mitigations or fixes, if available
+- Hugo version (run `hugo version` and include the output)
 
 If you need to share sensitive PoC code or data, attach it to the GitHub report as an encrypted file, or provide a link to a private Gist or other secure location. Please do not publicly disclose PoC details.
 
@@ -32,7 +30,9 @@ These timelines are targets, not guarantees. I may take longer depending on avai
 
 ## Scope
 
-The policy applies to the code in this repository and to deployed/hosted versions of the site (this project uses rolling updates rather than formal versioned releases). Production site: https://zacharyetters.com/
+The policy applies to the code in this repository and to deployed/hosted versions of the site (this project uses rolling updates rather than formal versioned releases).
+
+- Production site: [zacharyetters.com](https://zacharyetters.com/)
 
 It does not cover vulnerabilities in third-party dependencies or external services; please report those to the respective maintainers.
 
@@ -42,7 +42,7 @@ I follow coordinated disclosure: please do not publicly disclose the issue until
 
 ## Security Contact
 
-- Use GitHub's private vulnerability reporting for this repository: https://github.com/zacharyetters/portfolio-website/security/advisories/new
+- [Report a vulnerability (confidential)](https://github.com/zacharyetters/portfolio-website/security/advisories/new)
 
 ---
 
