@@ -1,2 +1,4 @@
 ---
+title: Authors
+excludeFromSearch: true
 ---

@@ -1,2 +1,4 @@
 ---
+title: Tags
+excludeFromSearch: true
 ---
