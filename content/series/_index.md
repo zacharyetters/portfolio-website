@@ -1,2 +1,4 @@
 ---
+title: Series
+excludeFromSearch: true
 ---

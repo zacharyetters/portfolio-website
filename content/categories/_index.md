@@ -1,2 +1,4 @@
 ---
+title: Categories
+excludeFromSearch: true
 ---
