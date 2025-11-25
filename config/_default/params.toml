@@ -12,7 +12,7 @@ autoSwitchAppearance = false
 enableA11y = false
 enableSearch = true
 enableCodeCopy = false
-enableStructuredBreadcrumbs = false
+enableStructuredBreadcrumbs = true
 
 replyByEmail = false
 
