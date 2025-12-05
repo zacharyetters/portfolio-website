@@ -1,5 +1,5 @@
-<!-- {{/* 
-  Hugo PDF Viewer Shortcode 
+<!-- {{/*
+  Hugo PDF Viewer Shortcode
   Securely embeds PDFs from trusted paths using PDF.js with client-side controls.
 
   Usage:
@@ -11,8 +11,8 @@
 
 {{- $src := .Get "src" | relURL -}}
 
-{{/* 
-  List of trusted path prefixes relative to site root. 
+{{/*
+  List of trusted path prefixes relative to site root.
   Ensures PDFs are only loaded from safe locations.
 */}}
 {{- $trustedPaths := slice "/resume/" "/projects/" "/publications/" "/about/" -}}

@@ -14,11 +14,11 @@
 
   ────────────────────────────────────────────────────────────────
   Example usage:
-  {{< embed-pdf 
-  src="/resume/example.pdf" 
+  {{< embed-pdf
+  src="/resume/example.pdf"
   params="page=1&navpanes=0"
-  width="100%" 
-  height="800px" 
+  width="100%"
+  height="800px"
   filename="example.pdf"
   >}}
 
@@ -42,14 +42,14 @@
 {{- $fullSrc := cond (ne $params "") (printf "%s#%s" $src $params) $src -}}
 
 {{- printf `
-<iframe 
-  src="%s" 
-  width="%s" 
-  height="%s" 
-  style="border: none;" 
+<iframe
+  src="%s"
+  width="%s"
+  height="%s"
+  style="border: none;"
   loading="lazy"
   title="PDF viewer"
   aria-label="Embedded PDF">
-  This browser does not support PDFs. Please download the file: 
+  This browser does not support PDFs. Please download the file:
   <a href="%s">%s</a>.
 </iframe>` $fullSrc $width $height $src $filename | safeHTML }} -->
