@@ -4,7 +4,7 @@ summary: 'A demonstration post to showcase the Blowfish theme’s page layout, d
 description: 'Explore the structure and visual presentation of content in the Blowfish theme, including headings, lists, code blocks, and styled components for effective documentation.'
 categories: []
 tags: []
-date: 9999-01-01
+date: 1970-01-01
 draft: true
 ---
 
