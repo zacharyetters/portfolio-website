@@ -1,7 +1,7 @@
 ---
 title: "Analyzing CTF Binaries with Reverse Engineering and Symbolic Execution"
-summary: "Analyzed 32-bit Linux CTF binaries using Ghidra, GDB, and angr to reverse-engineer program logic, identify key execution paths, and recover hidden flags through symbolic execution."
-description: "A software security project focused on Capture-The-Flag (CTF)–style binary analysis. This project used Ghidra for disassembly, GDB for low-level debugging, and angr for symbolic execution to explore program states, locate critical addresses, and extract embedded flags. Includes techniques for interpreting control flow, analyzing stack and memory layouts, and constructing valid symbolic inputs."
+summary: "Analyzed 32-bit Linux CTF binaries using Ghidra, GDB, and angr to reverse-engineer program logic, explore execution paths, and recover hidden flags via symbolic execution."
+description: "Reverse-engineered 32-bit Linux CTF binaries using Ghidra, GDB, and angr to analyze program logic, trace execution paths, and extract hidden flags for software security analysis."
 categories: []
 tags: []
 date: 2025-12-03
