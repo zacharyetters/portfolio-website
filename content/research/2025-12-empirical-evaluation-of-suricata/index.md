@@ -7,8 +7,8 @@ tags: []
 date: 2025-12-16
 draft: false
 externalUrl: "/research/2025-12-empirical-evaluation-of-suricata/PSU-Empirical-Evaluation-of-Suricata.pdf"
-build:
-  render: false
+# build:
+#   render: false
 ---
 
 ---
