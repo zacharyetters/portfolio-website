@@ -5,7 +5,7 @@ description: "Empirical evaluation of Suricata IDS using pfSense, DVWA, and Kali
 categories: []
 tags: []
 date: 2025-12-16
-draft: true
+draft: false
 externalUrl: "/research/2025-12-empirical-evaluation-of-suricata/PSU-Empirical-Evaluation-of-Suricata.pdf"
 build:
   render: false
