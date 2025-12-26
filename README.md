@@ -4,19 +4,13 @@ This repository contains the source code for my personal portfolio website that 
 
 ![website](content/projects/2023-12-portfolio-website/portfolio-theme-v3.png)
 
-
 ## Features
 - Showcases my professional projects and technical case studies
 - Includes a detailed About page
 - Highlights my publications and writing
 - Custom CSS for a unique look and feel
 - Responsive design for all devices
-- Built for speed and security with Hugo and Cloudflare
-
-## Technologies Used
-- [Hugo](https://gohugo.io/)
-- [Blowfish](https://github.com/nunocoracao/blowfish)
-- HTML and CSS
+- Built for speed and security with [Hugo](https://gohugo.io/), [Blowfish](https://github.com/nunocoracao/blowfish), [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ## Repository Structure
 ```
@@ -46,7 +40,7 @@ themes/             # Hugo themes (Blowfish)
 4. Visit `http://localhost:1313` in your browser.
 
 ## Deployment
-I use [Cloudflare Workers](https://workers.cloudflare.com/) to deploy and serve this website globally with high performance and security. The static site is built with Hugo and the output in the `public/` directory is automatically uploaded to Cloudflare's edge network using a CI/CD workflow.
+I use [Cloudflare Pages](https://pages.cloudflare.com/) to deploy and serve this website globally with high performance and security. The static site is built with Hugo and the output in the `public/` directory is automatically uploaded to Cloudflare's edge network using a CI/CD workflow.
 
 ## License
 
