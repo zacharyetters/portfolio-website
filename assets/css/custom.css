@@ -1,8 +1,12 @@
-/* Target only the site title link in the header */
-.main-menu nav > a:not(:has(*)) {
+/* Target the site title link and nav links in the header (avoid :has() selector)
+   - header title anchor has classes `text-base font-medium` so target it directly
+   - also include nav > a to cover menu links */
+.main-menu > a.text-base,
+.main-menu nav > a {
 }
 
-.main-menu nav > a:not(:has(*)):hover {
+.main-menu > a.text-base:hover,
+.main-menu nav > a:hover {
   color: rgba(var(--color-primary-400), 1);
 }
 
