@@ -75,4 +75,5 @@ title = "Zachary's Portfolio"
     # { codeberg = "https://codeberg.org/username"},
     { linkedin = "https://www.linkedin.com/in/zacharyetters/" },
     { github = "https://github.com/zacharyetters/" },
+    { printables = "https://www.printables.com/@username"},
   ]
