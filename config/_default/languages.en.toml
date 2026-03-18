@@ -73,7 +73,7 @@ title = "Zachary's Portfolio"
     # { youtube = "https://youtube.com/username" },
     # { ko-fi = "https://ko-fi.com/username" },
     # { codeberg = "https://codeberg.org/username"},
+    # { printables = "https://www.printables.com/@username"},
     { linkedin = "https://www.linkedin.com/in/zacharyetters/" },
     { github = "https://github.com/zacharyetters/" },
-    { printables = "https://www.printables.com/@username"},
   ]
